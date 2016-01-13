@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="402" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="btnFechar" min="-2" pref="82" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="315" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnFechar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Objectivo: Encontrar todas as minas o mais r&#xe1;pidamente&#xa;                poss&#xed;vel. Os recordes de tempo de cada n&#xed;vel&#xa;                ficam guardados.&#xa;&#xa;Uma c&#xe9;lula com n&#xfa;mero, indica que nas 8 c&#xe9;lulas que a&#xa;rodeiam, existe esse n&#xfa;mero de minas&#xa;&#xa;Controlos:&#xa;&#x9;Rato: Bot&#xe3;o esquerdo destapa as c&#xe9;lulas&#xa;&#x9;         Bot&#xe3;o direito marca como minada (!)&#xa;&#x9;         ou como duvidosa (?)&#xa;&#xa;&#x9;Teclado: A barra de espa&#xe7;os actua como&#xa;&#x9;         bot&#xe3;o esquerdo do rato, e a tecla &quot;M&quot;&#xa;&#x9;         actua como bot&#xe3;o direito, para Marcar&#xa;&#x9;         uma c&#xe9;lula como tendo mina (!), ou &#xa;&#x9;         duvidosa (!).&#xa;&#xa;          Se destapar uma c&#xe9;lula (bot&#xe3;o esquerdo do rato)&#xa;          que contem uma mina, perde o jogo.&#xa;&#xa;&#xa;Nivel F&#xe1;cil:&#xa;          Campo minado de dimens&#xf5;es 9x9 com 10 minas&#xa;&#xa;N&#xed;vel M&#xe9;dio: &#xa;          Campo minado com 16x16 com 40 minas&#xa;&#xa;N&#xed;vel Dif&#xed;cil: &#xa;          Campo minado com 16x30 com 90 minas&#xa;&#xa;&#xa;Sugest&#xe3;o: Para os n&#xed;veis M&#xe9;dio e Dificil, maximizar a &#xa;                 janela de jogo.&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnFechar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fechar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFecharActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
